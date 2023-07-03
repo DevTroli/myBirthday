@@ -1,0 +1,38 @@
+$width: 640px;
+$max-width-mobile: 240px;
+
+.button {
+    text-align: center;
+    border-radius: 8px;
+    margin: 8px 24px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+  
+    &--primary {
+      color: #fff;
+      background-color: #4f2ac3;
+      max-width: 100px;
+  
+      @media (max-width: $width) {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        max-width: $max-width-mobile;
+        height: 49px;
+        margin: auto;
+        display: block;
+      }
+    }
+  
+    @media (max-width: $width) {
+      text-align: center;
+      align-items: center;
+      width: 100%;
+      max-width: $max-width-mobile;
+      height: 49px;
+      margin: auto;
+      display: block;
+    }
+  }

@@ -1,0 +1,36 @@
+$width: 640px;
+$max-width-mobile: 240px;
+$max-width-tablet: 961px;
+
+@use "_hero.scss";
+@use "components/_info__bar.scss";
+@use "components/_button.scss";
+@use "events.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    
+}
+
+.container {
+    width: 100%;
+    max-width: $max-width-tablet;
+    margin: 0 auto;
+  
+    @media (max-width: $width) {
+      max-width: 80%;
+    }
+  
+    @media (max-width: 1023px) {
+      max-width: 90%;
+    }
+  }
+
+
+
+
+
