@@ -1,8 +1,9 @@
 $width: 640px;
 
+@use "../variables.scss";
+
 .info__bar {
-    padding-top: 32px 36px;
-    background-color: #fff;
+    background-color: variables.$colorText;
     border-radius: 8px;
     justify-content: space-between;
     align-items: center;
@@ -22,13 +23,13 @@ $width: 640px;
       font-size: 14px;
   
       b {
-        color: #000000;
+        color: variables.$colorText2;
         font-size: 18px;
         display: block;
       }
   
       &__text {
-        color: #000;
+        color: variables.$colorText2;
         padding-top: 5px;
       }
 

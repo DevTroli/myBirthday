@@ -1,6 +1,8 @@
 $width: 640px;
 $max-width-mobile: 240px;
 
+@use "..//variables.scss";
+
 .button {
     text-align: center;
     border-radius: 8px;
@@ -11,8 +13,8 @@ $max-width-mobile: 240px;
     text-decoration: none;
   
     &--primary {
-      color: #fff;
-      background-color: #4f2ac3;
+      color: variables.$colorText;
+      background-color: variables.$puple;
       max-width: 100px;
   
       @media (max-width: $width) {

@@ -2,9 +2,10 @@
   "name": "sla",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  
   "scripts": {
     "dev": "parcel src/index.html src/styles/*.scss src/scripts/*.js src/images/*.png",
+    "build": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

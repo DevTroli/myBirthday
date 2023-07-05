@@ -6,6 +6,7 @@ $max-width-tablet: 961px;
 @use "components/_info__bar.scss";
 @use "components/_button.scss";
 @use "events.scss";
+@use "variables.scss";
 
 *{
     margin: 0;
@@ -13,13 +14,17 @@ $max-width-tablet: 961px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     list-style: none;
-    
+}
+
+body{
+  overflow-x: hidden;
 }
 
 .container {
     width: 100%;
     max-width: $max-width-tablet;
     margin: 0 auto;
+  
   
     @media (max-width: $width) {
       max-width: 80%;
