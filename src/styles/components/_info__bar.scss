@@ -10,7 +10,7 @@ $width: 640px;
     display: flex;
   
     &__infos {
-      gap: 40px;
+      gap: 80px;
       padding: 16px;
       display: flex;
   
@@ -20,11 +20,11 @@ $width: 640px;
     }
   
     &__item {
-      font-size: 14px;
+      font-size: 20px;
   
       b {
         color: variables.$colorText2;
-        font-size: 18px;
+        font-size: 16px;
         display: block;
       }
   

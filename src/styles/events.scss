@@ -3,18 +3,16 @@ $width: 640px;
 @use "variables.scss";
 
 .event{
-    &--frontend {
+    &--doces {
         background-image: linear-gradient(variables.$Blue1 , variables.$Blue2);
     }
-    &--ui-ux {
+    &--salgados {
         background-image: linear-gradient(variables.$Blue2 , variables.$Rose);
     }
-    &--data-science {
-        background-image: linear-gradient(variables.$Rose , variables.$Yellow);
+    &--drinks {
+        background-image: linear-gradient(variables.$Rose , variables.$Green);
     }
-    &--backend {
-        background-image: linear-gradient(variables.$Yellow , variables.$Rose);
-    }
+  
 
     &--image-left{
         .container{
